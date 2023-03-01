@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-zlrg
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/uidev-user-workload:tPOTZ-devfile-sample-zlrg
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:ada6dfbecc4500dd5083c189f0885b31eb5ea40e7d4400d526e1c70239513387
         name: my-nodejs
         ports:
         - containerPort: 3001
