@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/karthik_jk/dc-metro-map@sha256:c662ddf01f946d0afeeb0061e9771f6f95b3ac50643d5156b1ca7acaa83f2187
+      - image: quay.io/karthik_jk/dc-metro-map@sha256:1a87a7483f8891a48da844d93a516de2d21d8c26587d85dd2ae5f55efe1cc7b8
         name: container-image
         resources: {}
 status: {}
